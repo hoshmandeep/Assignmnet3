@@ -10,7 +10,7 @@
 		public double Size { get; private set; }
 		public Colors Color { get; private set; }
 		
-		public Egg(double size, Colors color)
+		public Egg(double size, Colors color)// size, colour of the egg
 		{
 			Size = size;
 			Color = color;
@@ -29,8 +29,8 @@
 	class BrokenEgg : Egg
 	{
 		
-		public double Size { get; private set; }
-		public Colors Color { get; private set; }
+		public double Size { get; private set; }// for size of egg
+		public Colors Color { get; private set; }// for colour of egg
 		public BrokenEgg(double size, Colors color)
 		{
 			Size = size;

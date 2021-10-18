@@ -21,10 +21,10 @@ namespace A3.Birds
 			for (int i = 1; i < numEggs+1; ++i)
 			{
 				double size =Rand.NextDouble() * (4 - 2) + 2;
-				Egg egg = new Egg(size, Egg.Colors.brown);
+				Egg egg = new Egg(size, Egg.Colors.brown);// colour is brown of egg
 				BrokenEgg begg = new BrokenEgg(size, Egg.Colors.brown);
 				Random random = new Random();
-				if (random.Next(1, 100) <= 25)
+				if (random.Next(1, 100) <= 25)// when less than or equal to 25
 				{
 					Console.WriteLine(begg);
 				}
@@ -47,10 +47,10 @@ namespace A3.Birds
 			for (int i = 1; i < numEggs+1 ; ++i)
 			{
 				double size = Rand.NextDouble() * (15 - 10) + 10;
-				Egg egg = new Egg(size, Egg.Colors.speckled);
-				BrokenEgg begg = new BrokenEgg(size, Egg.Colors.speckled);
+				Egg egg = new Egg(size, Egg.Colors.speckled);// new egg
+				BrokenEgg begg = new BrokenEgg(size, Egg.Colors.speckled);// size of broken egg
 				Random random = new Random();
-				if (random.Next(1, 100) <= 45)
+				if (random.Next(1, 100) <= 45)// When less than equal to 45
 				{
 					Console.WriteLine(begg);
 				}
